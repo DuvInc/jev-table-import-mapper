@@ -1,0 +1,5 @@
+id,name,email,dept,manager,start,type,annual_salary,office,active
+1041,Priya Raman,priya.raman@northwind.io,Engineering,lea.fontaine@northwind.io,14/04/2025,CDI,86000,Paris,yes
+1042,Tom Vasquez,tom.vasquez@northwind.io,Engineering,lea.fontaine@northwind.io,01/09/2025,CDI,79000,Remote,yes
+1043,Dana Okafor,dana.okafor@northwind.io,Customer Success,sam.ellis@northwind.io,18/11/2024,CDI,71000,London,yes
+1044,Noor Haddad,noor.haddad@northwind.io,Support,dana.okafor@northwind.io,02/02/2026,CDD,38000,Remote,no

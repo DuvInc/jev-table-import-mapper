@@ -1,0 +1,5 @@
+Name,Created at,Email,Lineitem sku,Lineitem name,Lineitem quantity,Lineitem price,Currency,Fulfillment Status,Shipping Country
+#1042,2026-09-14 08:21:03 +0200,marit.h@gmail.com,NW-CAB-220-BK,Braided cable 2.2 m - black,2,19.00,EUR,fulfilled,Norway
+#1043,2026-09-14 09:05:47 +0200,j.wirtz@stellafoods.at,NW-HUB-7P-SL,7-port hub - silver,1,89.00,EUR,unfulfilled,Austria
+#1044,2026-09-14 11:47:12 +0200,amara@kestrel-labs.co.uk,NW-STD-ALU,Aluminium stand,1,129.00,GBP,fulfilled,United Kingdom
+#1045,2026-09-15 07:12:55 +0200,sven.l@nordkraft.se,NW-CAB-220-BK,Braided cable 2.2 m - black,4,19.00,SEK,partial,Sweden

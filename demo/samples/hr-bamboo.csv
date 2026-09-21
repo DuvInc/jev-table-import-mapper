@@ -1,0 +1,5 @@
+Employee #,Full Name,Work Email,Department,Reports To,Hire Date,Employment Status,Location
+E-1041,Priya Raman,priya.raman@northwind.io,Engineering,lea.fontaine@northwind.io,2025-04-14,Full-Time,Paris
+E-1042,Tom Vasquez,tom.vasquez@northwind.io,Engineering,lea.fontaine@northwind.io,2025-09-01,Full-Time,Remote - Spain
+E-1043,Dana Okafor,dana.okafor@northwind.io,Customer Success,sam.ellis@northwind.io,2024-11-18,Full-Time,London
+E-1044,Noor Haddad,noor.haddad@northwind.io,Support,dana.okafor@northwind.io,2026-02-02,Part-Time,Remote - Jordan

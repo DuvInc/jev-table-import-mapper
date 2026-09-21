@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+
+# Real keys, for .env.example. OPENROUTER_API_KEY spends money.
+.env
+.env.*
+!.env.example
+
+# Somebody's real export, dropped in to try the demo. A customer list committed
+# by accident is in the history forever, and this repository is a tool, not a
+# place to keep data. The demo reads the file in the browser; nothing needs to
+# be copied here.
+/uploads/
+*.csv
+!demo/samples/*.csv
+
+# Editor tooling. `.claude/skills/` holds symlinks to `skills/`, which is
+# committed.
+.vscode/
+.idea/
+.claude/*
+!.claude/skills/

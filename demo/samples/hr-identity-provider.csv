@@ -1,0 +1,5 @@
+person_id,display_name,personal_email,company_email,team,lead_email,joined,contract,comp_annual_eur,site,account_state,last_login
+u_8f21a,Priya Raman,p.raman88@outlook.com,priya.raman@northwind.io,Engineering,lea.fontaine@northwind.io,2025-04-14,permanent,86000,Paris,enabled,2026-09-18T16:41:09Z
+u_8f22b,Tom Vasquez,tomvasq@gmail.com,tom.vasquez@northwind.io,Engineering,lea.fontaine@northwind.io,2025-09-01,permanent,79000,Remote - Spain,enabled,2026-09-19T08:12:44Z
+u_8f23c,Dana Okafor,dana.ok@proton.me,dana.okafor@northwind.io,Customer Success,sam.ellis@northwind.io,2024-11-18,permanent,71000,London,enabled,2026-09-19T11:03:20Z
+u_8f24d,Noor Haddad,noorhaddad@yahoo.com,noor.haddad@northwind.io,Support,dana.okafor@northwind.io,2026-02-02,fixed-term,38000,Remote - Jordan,disabled,2026-08-30T09:55:01Z

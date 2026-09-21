@@ -1,0 +1,42 @@
+name: Bug report
+description: Something does not work the way this repository says it does.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what you got.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: header
+    attributes:
+      label: The header row, if this is a mapping problem
+      description: >
+        Column names plus two or three sample values are all this tool ever
+        sees, so they are usually enough to reproduce. Rename anything real and
+        invent the values.
+      render: text
+  - type: textarea
+    id: schema
+    attributes:
+      label: The destination schema
+      description: The `columns` array, descriptions included. The descriptions are often where the answer is.
+      render: javascript
+  - type: input
+    id: versions
+    attributes:
+      label: Commit, Node version, model
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before filing
+      options:
+        - label: My paste contains no API key.
+          required: true
+        - label: My paste contains no real customer data.
+          required: true

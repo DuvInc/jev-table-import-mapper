@@ -1,0 +1,21 @@
+{
+  "name": "csv-column-mapper",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Map the columns of an uploaded CSV onto your own table: a strict deterministic pass first, then a matrix of typed yes/no decisions for everything that needs judgement.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./csv": "./lib/csv.mjs",
+    "./mapper": "./lib/mapper.mjs",
+    "./jev": "./lib/jev.mjs"
+  },
+  "scripts": {
+    "demo": "node demo/server.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
