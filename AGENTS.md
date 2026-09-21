@@ -51,8 +51,17 @@ The four images in `docs/` are real runs of the demo, captured headlessly. They
 go stale when the UI or the sample files change, and a stale screenshot is
 worse than none.
 
+Check what is actually answering before capturing. A server left running on
+that port from an earlier session will answer instead, and if its directory has
+moved it answers 404, which Chrome photographs happily. Two screenshots of a
+404 page have already been committed that way.
+
 ```bash
+lsof -ti :5311 | xargs kill -9 2>/dev/null
 PORT=5311 npm run demo &
+sleep 2
+curl -s --fail http://localhost:5311/ | grep -q 'jev-table-import-mapper' || echo "WRONG SERVER"
+
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 shot () { "$CHROME" --headless=new --hide-scrollbars --force-device-scale-factor=2 \
   --window-size=$2 --virtual-time-budget=25000 --screenshot="docs/$1.png" "$3"; }
@@ -62,6 +71,9 @@ shot mapping 1100,1245 "http://localhost:5311/?table=ecom_orders&file=orders-war
 shot partial 1100,1245 "http://localhost:5311/?table=crm_contacts&file=crm-eventbrite.csv"
 shot matrix  1400,1000 "http://localhost:5311/?table=ecom_orders&file=orders-warehouse-export.csv&view=matrix"
 ```
+
+Check the file sizes afterwards. A real capture is 100 to 300 KB; 20 KB means
+Chrome photographed an error page.
 
 This costs three mapping runs, so under half a cent. The numbers in the README
 table come from the same runs: if you regenerate the images, check that the
