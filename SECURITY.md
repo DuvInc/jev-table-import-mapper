@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please report privately rather than in a public issue, using GitHub's
-[private vulnerability reporting](https://github.com/DuvInc/csv-column-mapper/security/advisories/new)
+[private vulnerability reporting](https://github.com/DuvInc/csv-import-mapper/security/advisories/new)
 on this repository.
 
 This is a one-person project. You should get an acknowledgement within a few

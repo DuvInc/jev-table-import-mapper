@@ -14,9 +14,7 @@ node_modules/
 *.csv
 !demo/samples/*.csv
 
-# Editor tooling. `.claude/skills/` holds symlinks to `skills/`, which is
-# committed.
+# Editor and agent tooling. The skills live in `skills/`, which is committed.
 .vscode/
 .idea/
-.claude/*
-!.claude/skills/
+.claude/

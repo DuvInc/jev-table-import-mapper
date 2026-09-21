@@ -1,7 +1,7 @@
 # AGENTS.md
 
-Instructions for any AI agent working in this repository. `CLAUDE.md` is a
-symlink to this file.
+Instructions for any AI agent working in this repository. One file, no
+per-vendor copy: Claude Code, Cursor, Codex and the rest all read `AGENTS.md`.
 
 Read this before changing the mapping. Most of the rules below exist because
 the failure they prevent is invisible: an import that looks complete, that
@@ -36,7 +36,7 @@ There are no dependencies. Node 22.18 or newer.
 | `demo/samples/` | nine real-shaped exports, each one breaking something specific |
 | `test/` | 27 assertions, no network, no key |
 | `docs/` | the README screenshots. Regenerated, never edited by hand |
-| `skills/csv-mapping/SKILL.md` | the procedure, as a skill. Symlinked from `.claude/skills/` |
+| `skills/csv-mapping/SKILL.md` | the procedure, as a skill |
 
 ## Commands
 

@@ -1,5 +1,5 @@
 {
-  "name": "csv-column-mapper",
+  "name": "csv-import-mapper",
   "type": "module",
   "version": "0.1.0",
   "private": true,

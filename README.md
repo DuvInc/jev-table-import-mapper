@@ -1,4 +1,4 @@
-# csv-column-mapper
+# csv-import-mapper
 
 **Your users upload a CSV. Its columns are never your columns. This maps them,
 and tells you how sure it is.**
@@ -104,8 +104,8 @@ happen on nine real exports before wiring the library into your own import
 flow.
 
 ```bash
-git clone https://github.com/DuvInc/csv-column-mapper
-cd csv-column-mapper
+git clone https://github.com/DuvInc/csv-import-mapper
+cd csv-import-mapper
 npm install              # installs nothing, and that is the point
 cp .env.example .env     # then put your OpenRouter key in it
 npm run demo
