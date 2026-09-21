@@ -37,7 +37,7 @@ Examples of unacceptable behaviour:
 Instances of abusive, harassing or otherwise unacceptable behaviour may be
 reported privately to the maintainer, [@DuvInc](https://github.com/DuvInc), at
 **guillaume.duv.pro@gmail.com**. If you would rather keep it on GitHub, a
-[private security advisory](https://github.com/DuvInc/csv-import-mapper/security/advisories/new)
+[private security advisory](https://github.com/DuvInc/jev-table-import-mapper/security/advisories/new)
 on this repository also opens a thread only the two of you can read. All
 complaints will be reviewed and investigated promptly and fairly, and the privacy
 and security of the reporter will be respected.

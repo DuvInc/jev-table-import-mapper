@@ -1,5 +1,5 @@
 {
-  "name": "csv-import-mapper",
+  "name": "jev-table-import-mapper",
   "type": "module",
   "version": "0.1.0",
   "private": true,

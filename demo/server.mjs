@@ -117,7 +117,7 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`csv-import-mapper demo  http://localhost:${PORT}`);
+  console.log(`jev-table-import-mapper demo  http://localhost:${PORT}`);
   console.log(`model ${JEV_MODEL} | threshold ${THRESHOLD} | key ${hasKey() ? 'found' : 'MISSING'}`);
   if (!hasKey()) console.log('Without a key the deterministic pass still runs and the demo will report the rest as unmapped.');
 });
